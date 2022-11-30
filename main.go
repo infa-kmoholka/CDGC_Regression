@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"https://github.com/infa-kmoholka/CDGC_Regression/apmservice"
+	"github.com/infa-kmoholka/CDGC_Regression/apmservice"
 )
 
 func main() {

@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"https://github.com/infa-kmoholka/CDGC_Regression/config"
+	"github.com/infa-kmoholka/CDGC_Regression/config"
 )
 
-//RespondWithJSON ...
+// RespondWithJSON ...
 func RespondWithJSON(msg string, w http.ResponseWriter, r *http.Request) {
 
 	body := config.Body{ResponseCode: 200, Message: msg}

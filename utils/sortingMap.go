@@ -3,7 +3,7 @@ package utils
 import (
 	"sort"
 
-	"https://github.com/infa-kmoholka/CDGC_Regression/config"
+	"github.com/infa-kmoholka/CDGC_Regression/config"
 )
 
 func SortingMap(m map[string]*config.TimesResponse) []string {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"https://github.com/infa-kmoholka/CDGC_Regression/config"
+	"github.com/infa-kmoholka/CDGC_Regression/config"
 )
 
 func ReadConfig() config.Config {

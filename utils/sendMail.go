@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"https://github.com/infa-kmoholka/CDGC_Regression/config"
+	"github.com/infa-kmoholka/CDGC_Regression/config"
 	"gopkg.in/gomail.v2"
 	//"gopkg.in/gomail.v2"
 )

@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"https://github.com/infa-kmoholka/CDGC_Regression/config"
+	"github.com/infa-kmoholka/CDGC_Regression/config"
 	"github.com/olivere/elastic/v7"
 )
 
-//GetReleaseData ...
+// GetReleaseData ...
 func GetReleaseData(buildNum string, release string, env string, iteration string, service string) (map[string]*config.TimesResponse, map[string]*config.TimesResponse) {
 
 	//Hostname := "irl62dqd07"

@@ -1,4 +1,4 @@
-module https://github.com/infa-kmoholka/CDGC_Regression
+module github.com/infa-kmoholka/CDGC_Regression
 
 go 1.12
 

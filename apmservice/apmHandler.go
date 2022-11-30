@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"strings"
 
-	"https://github.com/infa-kmoholka/CDGC_Regression/config"
-	"https://github.com/infa-kmoholka/CDGC_Regression/utils"
+	"github.com/infa-kmoholka/CDGC_Regression/config"
+	"github.com/infa-kmoholka/CDGC_Regression/utils"
 )
 
-//test method to validate api is up and running
+// test method to validate api is up and running
 func test(w http.ResponseWriter, r *http.Request) {
 
 	body := config.Body{ResponseCode: 200, Message: "OK"}
@@ -29,7 +29,7 @@ func test(w http.ResponseWriter, r *http.Request) {
 
 }
 
-//handler function for release comparison
+// handler function for release comparison
 func compareRelease(w http.ResponseWriter, r *http.Request) {
 
 	//storing the query params as variables
